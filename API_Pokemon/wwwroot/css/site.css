@@ -9,7 +9,6 @@ body {
  
 }
 
-
 .lists__pokemons {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
@@ -19,18 +18,18 @@ body {
 }
 
 .pokemon__img {
-    border: 5px solid #ccc;
+    border: 20px solid;
     width: 100%;
-    border-radius: 3px;
-    margin-top: 8em;
+    border-radius: 8px;
+    margin-top: 1em;
     color: dimgrey;
     padding: 0.5em;
 }
 
     .pokemon__img img {
         height: 200px;
-        width: 100%;
-        margin-top: -5em;
+        width: 50%;
+        margin-top: 0em;
     }
 
 .buttons {
