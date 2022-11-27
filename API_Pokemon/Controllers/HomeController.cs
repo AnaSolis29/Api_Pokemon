@@ -1,11 +1,11 @@
-﻿using m = API_Pokemon.Models;
+﻿using m = PokemonApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Diagnostics;
-using API_Pokemon.Models;
+using PokemonApi.Models;
 using System.IO;
 
-namespace API_Pokemon.Controllers
+namespace PokemonApi.Controllers
 {
     public class HomeController : Controller
     {
